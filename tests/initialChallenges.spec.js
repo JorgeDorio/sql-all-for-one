@@ -14,7 +14,7 @@ describe('Desafios iniciais', () => {
 
     importer.disconnect();
 
-    sequelize = new Sequelize('northwind', process.env.MYSQL_USER, process.env.MYSQL_PASSWORD, {host:process.env.HOSTNAME, port: process.env.PORT, dialect: 'mysql'})
+    sequelize = new Sequelize('northwind', process.env.MYSQL_USER, process.env.MYSQL_PASSWORD, { host: process.env.HOSTNAME, port: process.env.PORT, dialect: 'mysql' })
   });
 
   afterAll(async () => {
